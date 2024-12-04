@@ -1,1 +1,80 @@
-/*  your css code here. If applicable */
+/* Reset some default styles */  
+body, h1, h2, h3, h4, h5, h6, p {  
+    margin: 0;  
+    padding: 0;  
+}  
+
+/* Style for the navbar */  
+.navbar {  
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;  
+    padding: 10px 20px;  
+    background-color: white;  
+    border-bottom: 1px solid #ccc;  
+}  
+
+.logo {  
+    font-size: 24px;  
+    font-weight: bold;  
+    color: #4285F4;  
+}  
+
+.signin-button {  
+    background-color: transparent;  
+    border: 1px solid #4285F4;  
+    color: #4285F4;  
+    padding: 8px 12px;  
+    border-radius: 5px;  
+    cursor: pointer;  
+}  
+
+/* Style for the search container */  
+.search-container {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    margin-top: 150px; /* Adjust spacing as needed */  
+}  
+
+.search-bar {  
+    width: 500px;  
+    padding: 10px;  
+    border: 1px solid #ccc;  
+    border-radius: 24px;  
+    font-size: 16px;  
+}  
+
+.search-buttons {  
+    margin-top: 20px;  
+}  
+
+.search-button,   
+.feeling-lucky-button {  
+    background-color: #f8f9fa;  
+    border: 1px solid #ccc;  
+    border-radius: 5px;  
+    padding: 10px 20px;  
+    margin: 0 5px;  
+    cursor: pointer;  
+}  
+
+.search-button:hover,  
+.feeling-lucky-button:hover {  
+    background-color: #f1f1f1;  
+}  
+
+/* Footer styles */  
+.footer {  
+    display: flex;  
+    justify-content: space-between;  
+    padding: 20px;  
+    background-color: #f8f9fa;  
+    position: absolute;  
+    bottom: 0;  
+    width: 100%;  
+}  
+
+.footer-left, .footer-right {  
+    color: #5f6368;  
+}
